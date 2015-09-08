@@ -23,6 +23,15 @@
 		justify-content: center;
 		align-items: center;
 	}
+
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.content > * {
+		margin: 20px;
+	}
 	</style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,12 +46,16 @@
 
     <!--class="jumbotron"-->
 
-      <div class="content" style="margin: 50px; background: #FF6103;"  >
-        <img src="logo.jpg" width="300" style="float: right" />
-        <img src="dodskalle.png" width="300" style="float: left" />
+      <div class="content"  >
+        <img src="dodskalle.png" width="300" />
+        <div>
         <h1>Hej och grattis för att komma hit!</h1>
-        <p class="lead"> Din ledtråd för denna utmaningen har 9 bokstäver. En skelett har en sådan och din ledtråd rimmar med nalle. Lycka till!
-        </p>
+	        <p class="lead"> Din ledtråd för denna utmaningen har 9 bokstäver. <br>
+	        En skelett har en sådan och din ledtråd rimmar med nalle. <br>
+	        Lycka till!
+	        </p>
+        </div>
+        <img src="logo.jpg" width="300" />
       </div>
       
 
